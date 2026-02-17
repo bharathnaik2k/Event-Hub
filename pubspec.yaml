@@ -1,0 +1,74 @@
+name: eventhub
+description: "bnltd provide by eventhub"
+# publish_to: 'bnltd'
+version: 1.0.3+4
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  cached_network_image: ^3.3.1
+  cloud_firestore: ^6.0.2
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^6.1.0
+  firebase_core: ^4.1.1
+  firebase_database: ^12.0.2
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^6.0.0
+  flutter_svg: ^2.0.9
+  google_fonts: ^6.3.2
+  google_sign_in: ^7.2.0
+  http: ^1.5.0
+  http_parser: ^4.1.2
+  image_picker: ^1.0.7
+  intl: ^0.19.0
+  mime: ^2.0.0
+  package_info_plus: ^8.3.1
+  path: ^1.9.0
+  provider: ^6.1.5+1
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.6
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/svg/
+    - assets/images/
+    - .env
+  # fonts:
+  #   - family: Poppins-Regular
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+flutter_native_splash:
+  android: true
+  ios: true
+  # web: false
+  color: "#004d6e"
+  image: assets/images/logo84kb.png
+  # branding: assets/brand.png  # optional small bottom brand image1
+  android_gravity: center
+
+  android_12:
+    # background color
+    color: "#004d6e"
+    image: assets/images/logo84kb.png
+    # color_dark: "#042a49"
+    # image_dark: assets/images/logo/logo-splash2.png
+    # center-logo background color
+    # icon_background_color: "#111111"
+    # icon_background_color_dark: "#eeeeee"
+    # branding:
+    # The branding image dimensions must be 800x320 px.
+    #branding:      assets/dart.png
+    #branding_dark: assets/dart_dark.png
