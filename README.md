@@ -1,16 +1,13 @@
-# eventhub
+# Event Hub
 
-A new Flutter project.
+Event Hub is a simple event management app built with Flutter. It allows users to create, edit, and delete events, as well as view and manage their events. The app also includes a help and support section, where users can access FAQs and contact information.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Create, edit, and delete events
+- View and manage events
+- Help and support section with FAQs and contact information
 
-A few resources to get you started if this is your first Flutter project:
+## Image Preview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://ik.imagekit.io/w5bksvvqj/20260220_221454.jpg?updatedAt=1771605934473)
